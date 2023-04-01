@@ -1,4 +1,4 @@
-//Simulador de venta de productos para el hogar, se puede comprar con o sin Gift card de descuento//
+//Simulador de venta de productos para el hogar, se puede comprar con o sin Gift card de descuento. El objetivo del simulador es probar que la gift card de descuento funciona y que da el valor total de la compra con descuento, o permite comprar sin giftcard//
 
 //Variable del codigo Gift card
 
