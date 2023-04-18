@@ -27,14 +27,14 @@ function compraLuco (){
 
         if (opciones == "1" && giftCard==true){
             let valorTotal = valorMaceta-valorGift
-            alert (`El precio total de tu compra es: ${valorTotal} pesos`);
+            alert (`El precio de tu maceta es: ${valorMaceta} pesos y el total de tu compra con descuento ${valorTotal} pesos`);
 
         }else if (opciones == "1" && giftCard==false){
             alert (`El precio total de tu compra es: ${valorMaceta} pesos`);
 
         }else if (opciones == "2" && giftCard==true){
             let valorTotal = valorPortavasos-valorGift
-            alert (`El precio total de tu compra es: ${valorTotal} pesos`);
+            alert (`El precio de tu portavasos es: ${valorPortavasos} pesos y el total de tu compra con descuento ${valorTotal} pesos`);
 
         }else if (opciones == "2" && giftCard==false){
             alert (`El precio total de tu compra es: ${valorPortavasos} pesos`);
