@@ -95,7 +95,7 @@ while (opciones) {
 
     function resultado (){
         listaCompra.forEach(carrito=>{
-            alert (carrito + " Esta es tu compra final")
+            alert (carrito + " Esta es tu  lista de compra final")
         })
     }
 
