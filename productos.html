@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--Description-->
+     <!--Description-->
     <meta name="description" content="Diseñamos y producimos piezas utilitarias con cemento como material
     principal y otros complementarios como corcho y madera. Todas las piezas son manejables para sus dueños. La producción y acabados están realizados a mano.">
     <!--Fin Description-->
@@ -31,16 +31,16 @@
     <!--Fin CDN de Bootstrap-->
 
     <!--Title-->
-    <title>Luco | Objetos para el hogar</title>
+    <title>Productos | Luco | Objetos para el hogar</title>
     <!--Fin Title-->
+
 </head>
 
-<body>
 <!--Header-->
 <header>
 <nav class="navbar navbar-expand-lg bg-luco">
     <div class="container">
-      <a class="navbar-brand ps-4" href="index.html"><img class="logo-principal"src="imagenes/Logo Principal.png" alt="Logo Luco"></a>
+      <a class="navbar-brand ps-4" href="index.html"><img class="logo-principal"src="./imagenes/Logo Principal.png" alt="logo principal"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -50,10 +50,10 @@
             <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Nosotros</a>
+            <a class="nav-link" href="#">Nosotros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="">Contacto</a>
+            <a class="nav-link" href="#">Contacto</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="productos.html">Productos</a>
@@ -61,6 +61,7 @@
           <li>
             <a href="carritofinal.html" class="btn btn-outline-secondary position-relative">
             <img src="./imagenes/bolso.svg" alt="Carrito" width="24" />
+            <span id="carrito" class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-light">0</span>
         </a>
       </li>
         </ul>
@@ -68,53 +69,38 @@
     </div>
   </nav>
 </header>
-<!--Fin Header-->
+<!--Fin del Header-->
 
-<!--Carousel-->
-<section class="carousel container pt-5 pb-5">
-    <h1 class="text-center text-inicio">Luco</h1>
-    <p class="text-center text-inicio">Objetos utilitarios para el hogar con cemento, madera y corcho.</p>
-  <div class="row">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner ">
-      <div class="carousel-item active">
-        <img src="imagenes/luco-1.JPG" class="d-block w-100" alt="Maceta Luco">
-      </div>
-      <div class="carousel-item">
-        <img src="imagenes/faro-1.JPG" class="d-block w-100" alt="Maceta Faro">
-      </div>
-      <div class="carousel-item">
-        <img src="imagenes/pileta-2.JPG" class="d-block w-100" alt="Maceta Pileta">
-      </div>
+<!--Productos-->
+<section class=" productos container pt-5 pb-5">
+  <h1 class="title-productos">Productos</h1>
+  <div class="container my-5">
+    <div id="productos" class="row">
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Atrás</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Adelante</span>
-    </button>
     </div>
-  </div>
 </section>
 
-<!--Fin carousel-->
+<!--Fin Productos-->
 
 <!--Footer-->
 <footer class="footer-container"> 
-    <div class="footer">
-        <a href="https://www.facebook.com/Lucoobjetos.info"><img class="logo-redes"src="imagenes/facebook.png" alt="logo de facebook"></a>
-        <a href="https://www.instagram.com/luco.objetos/"><img class="logo-redes"src="imagenes/instagram.png" alt="logo de instagram"></a>
-    </div>
-    <div>
-      <p class="text-footer"> @2022. Luco.Objetos</p>
-    </div>
+  <div class="footer">
+      <a href="https://www.facebook.com/Lucoobjetos.info"><img class="logo-redes"src="./imagenes/facebook.png" alt="logo de facebook"></a>
+      <a href="https://www.instagram.com/luco.objetos/"><img class="logo-redes"src="./imagenes/instagram.png" alt="logo de instagram"></a>
+  </div>
+  <div>
+    <p class="text-footer"> @2022. Luco.Objetos</p>
+  </div>
 </footer>
 <!--Fin Footer-->
 
+
 <!--CDN componentes de Bootstrap-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+<!--links a JS-->
+<script src="js/productos.js"></script>
+<script src="js/carrito.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
-

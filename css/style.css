@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+/*Estilos header*/
+header {
+  background-color: #D7D3D4;
+}
+header nav ul li a {
+  font-family: "Comfortaa";
+}
+header nav ul li a:hover {
+  background-color: #c0c0c6;
+  border-radius: 8px;
+}
+@media screen and (max-width: 600px) {
+  header {
+    background-color: #ABDBCA;
+  }
+}
+header .logo-principal {
+  width: 80px;
+}
+
+/*Fin Estilos header*/
+/*Estilos Footer*/
+footer {
+  background-color: #ABDBCA;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+footer .logo-redes {
+  width: 30px;
+  margin: 10px;
+}
+footer p {
+  font-family: Comfortaa;
+  padding: 10px;
+  color: #404042;
+}
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 12px;
+  }
+}
+
+/*Fin Estilos Footer*/
+/*Estilos inicio*/
+.carousel h1 {
+  font-family: Comfortaa;
+  color: #a6a2a3;
+}
+@media screen and (max-width: 600px) {
+  .carousel h1 {
+    color: #FFA384;
+  }
+}
+.carousel p {
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  color: #404042;
+}
+@media screen and (max-width: 600px) {
+  .carousel p {
+    font-size: 12px;
+  }
+}
+
+/*Fin Estilos inicio*/
+/*Estilos nosotros*/
+.nosotros h1 {
+  font-family: Comfortaa;
+  color: #FFA384;
+}
+@media screen and (max-width: 600px) {
+  .nosotros h1 {
+    color: #ABDBCA;
+  }
+}
+.nosotros p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+@media screen and (max-width: 1000px) {
+  .nosotros p {
+    font-size: 12px;
+  }
+}
+
+.miembros h2 {
+  font-family: Comfortaa;
+  color: #ABDBCA;
+}
+@media screen and (max-width: 600px) {
+  .miembros h2 {
+    color: #FFA384;
+  }
+}
+.miembros p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+@media screen and (max-width: 1000px) {
+  .miembros p {
+    font-size: 12px;
+  }
+}
+.miembros .miembros-img {
+  text-align: center;
+}
+
+/*Fin estilos nosotros*/
+/*Estilos Productos*/
+.productos h1 {
+  font-family: Comfortaa;
+  color: #FFA384;
+}
+@media screen and (max-width: 600px) {
+  .productos h1 {
+    color: #ABDBCA;
+  }
+}
+.productos p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+/* .productos .macetas-portavasos:hover {
+  transform: scale(1.05);
+} */
+.productos .macetas-portavasos {
+  transition: all 0.5s;
+}
+.productos .flip-card {
+  background-color: transparent;
+  height: 500px;
+  text-align: center;
+}
+.productos .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 2s;
+  transform-style: preserve-3d;
+}
+.productos .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.productos .flip-card-front, .productos .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.productos .flip-card-back {
+  transform: rotateY(180deg);
+}
+
+/*Fin Estilos Productos*/
+/*Estilos Blog*/
+.blog h1 {
+  font-family: Comfortaa;
+  color: #FFA384;
+}
+@media screen and (max-width: 600px) {
+  .blog h1 {
+    color: #ABDBCA;
+  }
+}
+.blog p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+@media screen and (max-width: 1000px) {
+  .blog p {
+    font-size: 12px;
+  }
+}
+
+/*Fin de Estilos Blog*/
+/*Estilos Contacto*/
+.contacto h1 {
+  font-family: Comfortaa;
+  color: #ABDBCA;
+}
+@media screen and (max-width: 600px) {
+  .contacto h1 {
+    color: #FFA384;
+  }
+}
+.contacto p {
+  font-family: Montserrat Alternates;
+  color: #404042;
+}
+.contacto .mapa {
+  width: 90%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+/*Fin estilos Contacto*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

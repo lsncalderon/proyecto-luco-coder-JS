@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Estilos Home*/
+.bg-luco {
+    font-family: 'Comfortaa';
+    background-color: #D7D3D4;
+}
+
+.text-inicio {
+    color: #404042;
+    font-family: 'Montserrat Alternates';
+}
+
+.logo-principal {
+    width: 80px;
+}
+
+.logo-principal:hover{
+    transform: rotate(360deg); scale: (2);
+    transition: all 4s;
+}
+/*Fin Estilos Home*/
+
+/*Estilos Footer*/
+
+.footer-container {
+    background-color: #ABDBCA;
+    padding: 20px;
+}
+
+.footer {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.logo-redes{
+    width: 30px;
+    margin-left: 20px;
+}
+
+.text-footer {
+    color: #404042;
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content:center;
+}
+/*Fin Estilos Footer*/
+
+
+/*Estilos nosotros*/
+
+.title-nosotros {
+    color: #FFA384;
+    font-family: 'Comfortaa';
+}
+
+.title-miembros {
+    color: #ABDBCA;
+    font-family: 'Comfortaa';
+
+}
+.text-nosotros{
+    color: #404042;
+    font-family: 'Comfortaa';
+}
+
+
+/*Fin estilos nosotros*/
+
+/*Estilos Productos*/
+.title-productos {
+    color: #FFA384;
+    font-family: 'Comfortaa';
+}
+
+.macetas-portavasos:hover {
+    transform: scale(1.05);
+}
+
+.macetas-portavasos {
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+
+.paragraph-maceta {
+    font-family: 'Montserrat Alternates';
+}
+/*Fin Estilos Productos*/
+
+/*Estilos Blog*/
+
+.title-cuidados {
+    color: #ABDBCA;
+    font-family: 'Comfortaa';
+}
+.text-cuidados {
+    color: #404042;
+    font-family: 'Montserrat Alternates';
+}
+
+/*Fin de Estilos Blog*/
+
+/*Estilos Contacto*/
+
+.title-contacto {
+    color:#ABDBCA;
+    font-family: 'Comfortaa';
+}
+
+.text-contacto{
+    color: #404042;
+    font-family: 'Montserrat Alternates';
+}
+
+.mapa {
+    width: 90%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+/*Fin estilos Contacto*/
