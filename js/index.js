@@ -4,7 +4,7 @@ function renderizado(){
     
     productos.forEach (function (producto){
         salida += 
-    //con card girable para poder mostrar medidas de cada producto
+    //con card girable para poder mostrar medidas de cada producto de luco
     `<div class="col-md-6 col-lg-6 my-5 flip-card">
         <div class= "flip-card-inner">
             <div class= "flip-card-front">
