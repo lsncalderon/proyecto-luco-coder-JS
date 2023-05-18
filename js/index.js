@@ -1,3 +1,4 @@
+//funcion para rendenrizar productos
 function renderizado(){
     const productos = cargaProductosLS();
     let salida = "";
