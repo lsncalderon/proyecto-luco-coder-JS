@@ -59,7 +59,7 @@ function vaciadoCarrito(){
     actualizadoIconoCarrito();
 }
 
-//Funcion para eliminar el producto del carrito de compras
+//Funcion para eliminar producto del carrito
 function eliminarProductoCarrito(id){
     const carrito = cargaProductosCarrito();
     const productos = carrito.filter(itemID => itemID.id !== id)
